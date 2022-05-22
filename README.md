@@ -241,8 +241,11 @@ download, fetch, unpack, clean, concatenate, and analyze pharmanet data for a co
 4. ```cat H_FIRE_PNT.csv_slice.csv_count.csv```
 
 > term,count,freq_prcnt,freq_prcnt_cumul,mass_prcnt,mass_prcnt_cumul
+> 
 > Person,101269,54.112,54.112,-nan,-nan
+> 
 > Lightning,70795,37.8286,91.9406,-nan,-nan
+> 
 > Unknown,15083,8.05944,100,-nan,-nan
 
 Therefore,
