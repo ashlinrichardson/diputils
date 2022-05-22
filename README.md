@@ -248,7 +248,7 @@ download, fetch, unpack, clean, concatenate, and analyze pharmanet data for a co
 > 
 > Unknown,15083,8.05944,100,-nan,-nan
 
-Therefore,
+Therefore (as of dataset downloaded May 19 2022):
 * Person caused = **54.1 %** 
 * Lightning caused = **37.8 %**
 * Unknown = **8.06 %**
