@@ -234,6 +234,23 @@ download, fetch, unpack, clean, concatenate, and analyze pharmanet data for a co
 
 ```pnet_druglist studyid.csv```
 
+### Example of calculating fraction of fires by cause 
+1. Download CSV format data from https://catalogue.data.gov.bc.ca/dataset/fire-incident-locations-historical
+2. ```python3 ~/GitHub/diputils/py/csv_slice.py H_FIRE_PNT.csv FIRE_CAUSE```
+3. ```~/GitHub/diputils/cpp/count_col.cpp H_FIRE_PNT.csv_slice.csv```
+4. ```cat H_FIRE_PNT.csv_slice.csv_count.csv```
+
+> term,count,freq_prcnt,freq_prcnt_cumul,mass_prcnt,mass_prcnt_cumul
+> Person,101269,54.112,54.112,-nan,-nan
+> Lightning,70795,37.8286,91.9406,-nan,-nan
+> Unknown,15083,8.05944,100,-nan,-nan
+
+Therefore,
+* Total fires = 101269 + 70795 + 15083 = 187147
+* Person caused = 100% * (101269 / 187147) = **54.1 %** 
+* Lightning caused = 100% *  (70795 / 187147) = **37.8 %**
+* Unknown = 100% * (15083 / 187147) = **8.06 %**
+
 ## Getting Help
 Please contact Ashlin.Richardson@gov.bc.ca for assistance or to provide feedback
 
