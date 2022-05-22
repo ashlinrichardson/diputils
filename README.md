@@ -249,10 +249,9 @@ download, fetch, unpack, clean, concatenate, and analyze pharmanet data for a co
 > Unknown,15083,8.05944,100,-nan,-nan
 
 Therefore,
-* Total fires = 101269 + 70795 + 15083 = 187147
-* Person caused = 100% * (101269 / 187147) = **54.1 %** 
-* Lightning caused = 100% *  (70795 / 187147) = **37.8 %**
-* Unknown = 100% * (15083 / 187147) = **8.06 %**
+* Person caused = **54.1 %** 
+* Lightning caused = **37.8 %**
+* Unknown = **8.06 %**
 
 ## Getting Help
 Please contact Ashlin.Richardson@gov.bc.ca for assistance or to provide feedback
